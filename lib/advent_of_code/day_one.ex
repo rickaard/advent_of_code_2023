@@ -51,12 +51,12 @@ defmodule AdventOfCode.DayOne do
   end
 end
 
-"lib/inputs/day_one.text"
+"lib/inputs/day_one.txt"
 |> File.read!()
 |> AdventOfCode.DayOne.part_one()
 |> IO.inspect(label: "Sum of all calibration values - Part 1")
 
-"lib/inputs/day_one.text"
+"lib/inputs/day_one.txt"
 |> File.read!()
 |> AdventOfCode.DayOne.part_two()
 |> IO.inspect(label: "Sum of all calibration values - Part 2")
